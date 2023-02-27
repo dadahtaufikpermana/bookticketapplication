@@ -1,0 +1,6 @@
+package com.dbestech.bookticketapplication
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
