@@ -27,7 +27,8 @@ class TicketScreen extends StatelessWidget {
             Gap(AppLayout.getHeight(40)),
             Text("Tickets", style: Styles.headLineStyle1,),
             Gap(AppLayout.getHeight(20)),
-            AddTabs(firstTab: "Upcoming", secondTab: "Previous"),
+            InkWell( onTap: ()=>print("You are tapped"),
+                child: AddTabs(firstTab: "Upcoming", secondTab: "Previous")),
             Gap(AppLayout.getHeight(20)),
             Container(
               padding: EdgeInsets.only(left: AppLayout.getHeight(15)),
